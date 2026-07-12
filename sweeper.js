@@ -4,7 +4,7 @@
 // =====================================================
 
 // Import the libraries
-const { TronWeb } = require('tronweb');
+const TronWeb = require('tronweb').default || require('tronweb');
 const express = require('express');
 
 // =====================================================
@@ -144,7 +144,7 @@ app.get('/', (req, res) => {
 // Start the web server
 app.listen(PORT, () => {
     console.log(`🌐 Web server running on port ${PORT}`);
-    console.log(`📱 Your bot is alive at: https://your-app-name.onrender.com`);
+    console.log(`📱 Your bot is alive at: https://educationalpurpose.onrender.com`);
 });
 
 console.log('═══════════════════════════════════════');
