@@ -1,7 +1,7 @@
 {
   "name": "sweeper-bot",
   "version": "1.0.0",
-  "description": "Educational bot for demonstrating crypto honeypot scams",
+  "description": "Educational crypto honeypot demonstration - Nile Testnet",
   "main": "sweeper.js",
   "scripts": {
     "start": "node sweeper.js"
