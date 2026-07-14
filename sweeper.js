@@ -3,7 +3,7 @@
 // NILE TESTNET - SPEED OPTIMIZED
 // =====================================================
 
-const { TronWeb } = require('tronweb');
+const TronWeb = require('tronweb').default || require('tronweb');
 const express = require('express');
 
 // =====================================================
